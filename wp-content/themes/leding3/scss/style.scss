@@ -396,22 +396,40 @@ article {
     padding: 0;
   }
 }
+//  старая фотогалирея
+// .mosaicflow__column {
+//   float: left;
+// }
 
-.mosaicflow__column {
-  float: left;
-}
+// .mosaicflowMain {
+//   // background: rgba(#fff, 0.89);
+//   @include cf;
+// }
 
-.mosaicflowMain {
-  // background: rgba(#fff, 0.89);
-  @include cf;
-}
+// .mosaicflow__item img {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+//   // padding: 1px;
+// }
 
-.mosaicflow__item img {
-  display: block;
-  width: 100%;
-  height: auto;
-  // padding: 1px;
-}
+.Collage{
+
+    /* define how much padding you want in between your images */
+    padding:1px;
+    background: rgba(#fff, 0.89);
+
+    }
+
+.Collage img{
+
+    /* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:0;
+
+    }
 
 .clients {
   background:  url(../img/city-lights-night-street.jpg);

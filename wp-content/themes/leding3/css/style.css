@@ -343,18 +343,16 @@ article {
     margin: 0;
     padding: 0; }
 
-.mosaicflow__column {
-  float: left; }
+.Collage {
+  /* define how much padding you want in between your images */
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.89); }
 
-.mosaicflowMain:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.mosaicflow__item img {
-  display: block;
-  width: 100%;
-  height: auto; }
+.Collage img {
+  /* ensures padding at the bottom of the image is correct */
+  vertical-align: bottom;
+  /* hide the images until the plugin has run. the plugin will reveal the images*/
+  opacity: 0; }
 
 .clients {
   background: url(../img/city-lights-night-street.jpg);
