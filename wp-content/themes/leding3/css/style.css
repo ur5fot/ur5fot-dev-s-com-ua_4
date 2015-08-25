@@ -1,0 +1,439 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "georgia";
+  src: url("../font/georgia.ttf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "georgia-italic";
+  src: url("../font/georgia-italic.ttf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "georgia-bold";
+  src: url("../font/georgia-bold.ttf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "georgia-bold-italic";
+  src: url("../font/georgia-bold-italic.ttf");
+  font-style: normal;
+  font-weight: normal; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  vertical-align: middle;
+  font-family: tahoma, Georgia;
+  color: #414040; }
+  @media only screen and (max-width: 480px) {
+    html {
+      font-size: 14px; } }
+
+body {
+  font-size: 10px;
+  font-size: 1rem;
+  line-height: 17.76px;
+  line-height: 1.11rem; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 4.8px;
+  padding: 0rem 0.3rem; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+h1 {
+  font-family: "georgia", Tahoma, 'Abyssinica SIL';
+  font-weight: 400;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 33.3px;
+  line-height: 2.08125rem; }
+
+h2 {
+  font-size: 27.856px;
+  font-size: 1.741rem;
+  line-height: 18.56px;
+  line-height: 1.16rem;
+  font-family: Tahoma, "georgia", 'Abyssinica SIL';
+  margin-left: 38px;
+  margin-left: 2.375rem; }
+
+h3 {
+  font-size: 31.984px;
+  font-size: 1.999rem;
+  line-height: 35.52px;
+  line-height: 2.22rem;
+  font-family: Tahoma, "georgia", 'Abyssinica SIL'; }
+  @media (max-width: 1000px) {
+    h3 {
+      font-size: 22.624px;
+      font-size: 1.414rem;
+      line-height: 26.64px;
+      line-height: 1.665rem; } }
+
+h4 {
+  font-size: 22.624px;
+  font-size: 1.414rem;
+  text-transform: uppercase;
+  line-height: 26.64px;
+  line-height: 1.665rem;
+  font-family: Tahoma, "georgia", 'Abyssinica SIL'; }
+  @media (max-width: 1000px) {
+    h4 {
+      font-size: 16px;
+      font-size: 1rem;
+      line-height: 17.76px;
+      line-height: 1.11rem; } }
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 17.76px;
+  line-height: 1.11rem;
+  font-family: Tahoma, "georgia", 'Abyssinica SIL'; }
+
+h6 {
+  font-size: 11.312px;
+  font-size: 0.707rem;
+  text-transform: uppercase;
+  line-height: 17.76px;
+  line-height: 1.11rem;
+  font-family: Tahoma, "georgia", 'Abyssinica SIL'; }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  color: #414040;
+  font-family: Abyssinica SIL, Tahoma, "georgia"; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.topLine {
+  font-size: 10px;
+  font-size: 1rem;
+  background: rgba(17, 17, 17, 0.7);
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  color: #ebebeb;
+  line-height: 50px;
+  line-height: 3.125rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  font-family: "georgia"; }
+  .topLine:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (max-width: 600px) {
+    .topLine {
+      top: 0; } }
+  @media (max-width: 700px) {
+    .topLine {
+      text-align: center; }
+      .topLine i:before {
+        content: ""; }
+      .topLine ul .user {
+        display: none; }
+      .topLine li {
+        display: inline-block; } }
+  .topLine .user {
+    font-size: 14.4px;
+    font-size: 1.44rem;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    margin-left: 0; }
+  .topLine li {
+    display: block;
+    float: right;
+    display: inline-block;
+    margin-left: 28.96px;
+    margin-left: 1.81rem; }
+  .topLine a {
+    color: #ddd; }
+    .topLine a:after {
+      border-bottom: none; }
+
+.userTelEmail {
+  font-family: Abyssinica SIL, tahoma; }
+
+.tel:before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 14px;
+  background-image: url("../img/tel.png"); }
+
+.email:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 11px;
+  background-image: url("../img/email.png"); }
+
+.name {
+  height: 604.96px;
+  height: 37.81rem;
+  background: #888 fixed url(../img/pizza-744405_1280-853.jpg) no-repeat;
+  background-size: cover; }
+  @media (max-width: 768px) {
+    .name {
+      background-image: url(../img/pizza-744405_768_512.jpg); } }
+
+.nameTitle {
+  padding-top: 268.8px;
+  padding-top: 16.8rem;
+  margin-left: 8%; }
+  @media (max-width: 700px) {
+    .nameTitle {
+      width: 100%;
+      clear: left;
+      margin-top: 96px;
+      margin-top: 6rem;
+      text-align: center; } }
+  .nameTitle h1 {
+    color: #bbb8b4; }
+  .nameTitle span {
+    color: #e4e4e4;
+    font-family: "georgia-italic";
+    font-size: 32px;
+    font-size: 2rem; }
+
+.nameDescription {
+  margin-top: 89.6px;
+  margin-top: 5.6rem;
+  margin-bottom: 96.96px;
+  margin-bottom: 6.06rem;
+  width: 320px;
+  width: 20rem;
+  margin-left: 49%;
+  font-family: Abyssinica SIL, tahoma;
+  font-size: 18.56px;
+  font-size: 1.16rem;
+  color: #000; }
+  .nameDescription p {
+    font-family: "georgia-italic", tahoma;
+    margin-top: 41.92px;
+    margin-top: 2.62rem;
+    font-size: 16.64px;
+    font-size: 1.04rem;
+    color: rgba(0, 0, 0, 0.82); }
+
+article {
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5); }
+  article .container > p {
+    margin-bottom: 61.008px;
+    margin-bottom: 3.813rem;
+    font-size: 25.6px;
+    font-size: 1.6rem;
+    line-height: 23.2px;
+    line-height: 1.45rem;
+    margin-left: 38px;
+    margin-left: 2.375rem; }
+
+.benefit {
+  background: #ddd url(../img/ravenna.png) repeat;
+  padding: 96.96px 0px 126px 0px;
+  padding: 6.06rem 0rem 7.875rem 0rem; }
+  .benefit h2 {
+    font-size: 27.856px;
+    font-size: 1.741rem;
+    line-height: 18.56px;
+    line-height: 1.16rem;
+    font-family: Tahoma, "georgia", 'Abyssinica SIL';
+    margin-left: 38px;
+    margin-left: 2.375rem; }
+
+.owl-carousel {
+  background: #fcfcfc; }
+
+.benefitDescription {
+  margin-top: 100px;
+  margin-top: 6.25rem;
+  margin-left: 42px;
+  margin-left: 2.625rem;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 20px;
+  line-height: 1.25rem; }
+  .benefitDescription a {
+    display: block;
+    margin-top: 23.04px;
+    margin-top: 1.44rem;
+    width: 240px;
+    width: 15rem;
+    font-size: 18.56px;
+    font-size: 1.16rem;
+    line-height: 18.56px;
+    line-height: 1.16rem;
+    color: #817f7f; }
+
+.foto {
+  padding: 140.96px 0px 488px 0px;
+  padding: 8.81rem 0rem 30.5rem 0rem;
+  background: #111 url(../img/footer_lodyas.png);
+  color: rgba(255, 255, 255, 0.9); }
+  .foto h2 {
+    text-align: left;
+    font-size: 20.16px;
+    font-size: 1.26rem;
+    line-height: 23.2px;
+    line-height: 1.45rem;
+    font-family: "georgia", Tahoma, 'Abyssinica SIL';
+    margin-left: 38px;
+    margin-left: 2.375rem;
+    margin-bottom: 67.04px;
+    margin-bottom: 4.19rem; }
+  .foto img {
+    margin: 0;
+    padding: 0; }
+
+.mosaicflow__column {
+  float: left; }
+
+.mosaicflowMain:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.mosaicflow__item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.clients {
+  background: url(../img/city-lights-night-street.jpg);
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 3px #000;
+  border-top: 1rem #111111 solid;
+  border-bottom: 1rem #111111 solid;
+  padding: 107.84px 0px 0px 0px;
+  padding: 6.74rem 0rem 0rem 0rem; }
+  .clients h2 {
+    text-align: left;
+    font-size: 20.16px;
+    font-size: 1.26rem;
+    line-height: 23.2px;
+    line-height: 1.45rem;
+    font-family: "georgia", Tahoma, 'Abyssinica SIL';
+    margin-left: 38px;
+    margin-left: 2.375rem;
+    margin-bottom: 67.04px;
+    margin-bottom: 4.19rem; }
+  .clients h3 {
+    text-align: left;
+    font-size: 18.56px;
+    font-size: 1.16rem;
+    line-height: 23.2px;
+    line-height: 1.45rem;
+    font-family: "georgia", Tahoma,  'Abyssinica SIL';
+    margin-left: 20px;
+    margin-left: 1.25rem; }
+  .clients:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (max-width: 768px) {
+    .clients {
+      background-image: url(../img/city-lights-night-street_768.jpg); } }
+  .clients p {
+    text-align: left; }
+  .clients a {
+    display: inline-block;
+    margin-top: 23.04px;
+    margin-top: 1.44rem;
+    margin-left: 18.4px;
+    margin-left: 1.15rem;
+    font-size: 18.56px;
+    font-size: 1.16rem;
+    line-height: 18.56px;
+    line-height: 1.16rem;
+    color: #817f7f; }
+  .clients section {
+    background: rgba(255, 255, 255, 0.89);
+    padding: 1px;
+    padding-bottom: 280px;
+    padding-bottom: 17.5rem;
+    color: #000;
+    text-shadow: none;
+    float: left;
+    width: 32%;
+    margin-left: 2%; }
+    .clients section:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .clients section:first-of-type {
+      margin-left: 0; }
+    .clients section img {
+      width: 100%;
+      margin-bottom: 23.04px;
+      margin-bottom: 1.44rem; }
+  .clients .clientsUp {
+    margin-top: 107px;
+    margin-top: 6.6875rem;
+    margin-left: 30px;
+    margin-left: 1.875rem;
+    margin-bottom: 280px;
+    margin-bottom: 17.5rem;
+    display: inline-block; }
+  .clients .footer {
+    text-align: center;
+    color: #fcfcfc;
+    font-family: "georgia", Tahoma,  'Abyssinica SIL'; }

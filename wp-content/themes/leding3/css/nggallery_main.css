@@ -1,0 +1,41 @@
+/*
+CSS Name: main Styles
+Description: NextGEN Default Gallery Stylesheet
+Author: Photocrati Media
+Version: 0
+
+This stylesheet is provided to allow users the ability of overriding the default styles for all display types
+*/
+.ngg-galleryoverview {
+  margin-top: 0;
+  text-align: center;
+  display: inline-block;
+  display: flex; }
+
+.ngg-gallery-thumbnail-box {
+  float: none;
+  margin: 0;
+  margin: auto;
+  padding: 0;
+  display: inline-block !important;
+  max-width: 250px;
+  min-width: 149px;
+  width: 24%; }
+
+.ngg-gallery-thumbnail {
+  display: inline-block;
+  width: 100%; }
+  .ngg-gallery-thumbnail a {
+    display: block;
+    width: 100%; }
+  .ngg-gallery-thumbnail img {
+    background-color: none;
+    border: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-radius: 5px; }
+    .ngg-gallery-thumbnail img:hover {
+      opacity: .7; }
